@@ -1,4 +1,6 @@
 num = int(input("Escreva o numero da tabuada que você quer saber: "))
-for tabuada in range(1,11):
-    multiplicacao = num*tabuada
-    print(f"{num} X {tabuada} = {multiplicacao}")
+if num <0:
+    print("INVALIDO")
+else:
+    for tabuada in range(1,11):
+        print(f"{num} X {tabuada} = {num*tabuada}")
