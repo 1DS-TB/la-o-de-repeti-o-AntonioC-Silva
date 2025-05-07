@@ -1,6 +1,6 @@
 num = int(input("Escreva um numero: "))
 if num<2:
-    print(" O numero não é primo")
+    print("O numero não é primo")
 elif num == 2:
     print("O numero é primo")
 for divisao in range(2, num):
